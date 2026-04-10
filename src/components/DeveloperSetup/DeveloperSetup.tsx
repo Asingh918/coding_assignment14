@@ -101,9 +101,7 @@ const DeveloperSetup = () => {
     <SetupSection id="setup">
       <Inner>
         <SectionTitle>Developer Setup</SectionTitle>
-        <SectionSubtitle>
-          My preferred development environment and tools
-        </SectionSubtitle>
+        <SectionSubtitle>My preferred development environment and tools</SectionSubtitle>
         <Grid>
           <SetupCard>
             <CardHeader>
@@ -171,10 +169,8 @@ const DeveloperSetup = () => {
             </ItemList>
             <CodeBlock>
               $ node --version{'\n'}
-              v18.x.x{'\n'}
-              $ npm --version{'\n'}
-              9.x.x{'\n'}
-              $ docker --version{'\n'}
+              v18.x.x{'\n'}$ npm --version{'\n'}
+              9.x.x{'\n'}$ docker --version{'\n'}
               Docker 24.x.x
             </CodeBlock>
           </SetupCard>

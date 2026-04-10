@@ -33,15 +33,9 @@ const FooterLink = styled.a`
 const Footer = () => {
   return (
     <FooterSection>
-      <FooterText>
-        © 2026 Arshpreet Singh — Built with React, TypeScript & Docker
-      </FooterText>
+      <FooterText>© 2026 Arshpreet Singh — Built with React, TypeScript & Docker</FooterText>
       <FooterLinks>
-        <FooterLink
-          href="https://github.com/Asingh918"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <FooterLink href="https://github.com/Asingh918" target="_blank" rel="noreferrer">
           GitHub
         </FooterLink>
         <FooterLink href="#hero">Back to Top</FooterLink>

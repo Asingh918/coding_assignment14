@@ -43,11 +43,21 @@ const Navbar = () => {
     <Nav>
       <Logo>Arshpreet Singh</Logo>
       <NavLinks>
-        <li><NavLink href="#hero">Home</NavLink></li>
-        <li><NavLink href="#work">Work</NavLink></li>
-        <li><NavLink href="#skills">Skills</NavLink></li>
-        <li><NavLink href="#resources">Resources</NavLink></li>
-        <li><NavLink href="#setup">Setup</NavLink></li>
+        <li>
+          <NavLink href="#hero">Home</NavLink>
+        </li>
+        <li>
+          <NavLink href="#work">Work</NavLink>
+        </li>
+        <li>
+          <NavLink href="#skills">Skills</NavLink>
+        </li>
+        <li>
+          <NavLink href="#resources">Resources</NavLink>
+        </li>
+        <li>
+          <NavLink href="#setup">Setup</NavLink>
+        </li>
       </NavLinks>
     </Nav>
   );

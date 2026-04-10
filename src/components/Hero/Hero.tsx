@@ -127,9 +127,8 @@ const Hero = () => {
           <Tag>Node.js</Tag>
         </TagsRow>
         <Description>
-          IT student passionate about building clean, tested, and well-documented
-          web applications. Currently studying Business Systems Build and Testing
-          at Red River College.
+          IT student passionate about building clean, tested, and well-documented web applications.
+          Currently studying Business Systems Build and Testing at Red River College.
         </Description>
         <ButtonGroup>
           <PrimaryButton href="#work">View My Work</PrimaryButton>

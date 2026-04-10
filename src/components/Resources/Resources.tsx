@@ -137,17 +137,10 @@ const Resources = () => {
     <ResourcesSection id="resources">
       <Inner>
         <SectionTitle>Resources</SectionTitle>
-        <SectionSubtitle>
-          Helpful tools and references I use every day
-        </SectionSubtitle>
+        <SectionSubtitle>Helpful tools and references I use every day</SectionSubtitle>
         <Grid>
           {resources.map((resource, index) => (
-            <ResourceCard
-              key={index}
-              href={resource.link}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <ResourceCard key={index} href={resource.link} target="_blank" rel="noreferrer">
               <ResourceIcon>{resource.icon}</ResourceIcon>
               <ResourceInfo>
                 <ResourceTitle>{resource.title}</ResourceTitle>

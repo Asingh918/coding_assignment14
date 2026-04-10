@@ -115,9 +115,7 @@ const Skills = () => {
     <SkillsSection id="skills">
       <Inner>
         <SectionTitle>Skills</SectionTitle>
-        <SectionSubtitle>
-          Technologies and tools I have worked with
-        </SectionSubtitle>
+        <SectionSubtitle>Technologies and tools I have worked with</SectionSubtitle>
         <Grid>
           {skills.map((group, index) => (
             <CategoryCard key={index}>

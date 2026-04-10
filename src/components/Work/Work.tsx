@@ -150,11 +150,7 @@ const Work = () => {
                   <TechTag key={i}>{tech}</TechTag>
                 ))}
               </TechTags>
-              <ProjectLink
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <ProjectLink href={project.link} target="_blank" rel="noreferrer">
                 View on GitHub →
               </ProjectLink>
             </ProjectContent>
