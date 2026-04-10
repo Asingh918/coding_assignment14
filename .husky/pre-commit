@@ -1,0 +1,19 @@
+echo "Running pre-commit quality checks..."
+
+echo "1. Checking Prettier formatting..."
+npx prettier --check "src/**/*.{ts,tsx,css,json}"
+if [ $? -ne 0 ]; then
+  echo "Prettier check FAILED. Run: npm run format"
+  exit 1
+fi
+echo "Prettier check passed!"
+
+echo "2. Running ESLint..."
+npx eslint src --ext .ts,.tsx --max-warnings 0
+if [ $? -ne 0 ]; then
+  echo "ESLint check FAILED. Run: npm run lint:fix"
+  exit 1
+fi
+echo "ESLint check passed!"
+
+echo "All pre-commit checks passed!"
