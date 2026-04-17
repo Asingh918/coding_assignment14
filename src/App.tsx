@@ -1,3 +1,4 @@
+// Arshpreet
 import { GlobalStyles } from './styles/GlobalStyles';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
